@@ -1,0 +1,26 @@
+# Core dependencies
+aiohttp>=3.9.0  # For async HTTP server/client
+fastapi>=0.104.0  # For REST API endpoints
+uvicorn>=0.24.0  # ASGI server for FastAPI
+
+# Processing & Analysis
+pandas>=2.1.0  # For efficient data processing and analysis
+numpy>=1.24.0  # For numerical operations
+
+# Monitoring & Performance
+psutil>=5.9.0  # For monitoring memory usage
+prometheus-client>=0.17.0  # For metrics collection
+
+# Testing
+pytest>=7.4.0  # For testing framework
+pytest-asyncio>=0.21.0  # For testing async code
+pytest-cov>=4.1.0  # For test coverage reporting
+
+# Development & Type Checking
+black>=23.9.0  # Code formatting
+mypy>=1.5.0  # Static type checking
+isort>=5.12.0  # Import sorting
+
+# Utilities
+python-dateutil>=2.8.2  # For datetime parsing
+pydantic>=2.4.0  # For data validation
